@@ -1,0 +1,78 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+
+  background-size: cover;
+  padding: 10px;
+}
+.header-container {
+  text-align: center;
+}
+.header {
+  color: #ffff;
+  font-size: 52px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  max-width: 1000px;
+}
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header-2 {
+  color: #ffff;
+  font-size: 20px;
+}
+.tagline {
+  color: #94a3b8;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.button {
+  padding: 20px;
+  cursor: pointer;
+  outline: none;
+  margin: 30px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+.accelerate {
+  background-color: #0b69ff;
+  color: #ffff;
+}
+.brakes {
+  background-color: transparent;
+  color: #cbd5e1;
+  border-width: 2px;
+  border-color: #cbd5e1;
+}
+@media screen and (max-width: 576px) {
+  .header {
+    font-size: 20px;
+  }
+  .header-2 {
+    font-size: 15px;
+  }
+  .image {
+    max-width: 250px;
+  }
+  .tagline {
+    font-size: 10px;
+  }
+  .button {
+    padding: 5px;
+    font-size: 10px;
+  }
+}
